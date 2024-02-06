@@ -1,0 +1,24 @@
+.form-div{
+    background-color: aliceblue;
+    height: 100vh;
+    width: 100%;
+}
+.form-wrapper{
+    background-color: rgb(21, 184, 176);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-wrapper form{
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.form-wrapper form-input{
+    margin-top: 10px;
+}
