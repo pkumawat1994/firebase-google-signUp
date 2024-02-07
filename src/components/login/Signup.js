@@ -16,7 +16,7 @@ const Signup = () => {
   const [mobile, setMobile] = useState("");
   const [password, setPassword] = useState("");
   const [user, setUser] = useState("");
-  
+
   let googleProvider = new GoogleAuthProvider();
 
   const handleSubmit = (e) => {
